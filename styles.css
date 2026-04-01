@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: #011e29;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start; /* IMPORTANT: top alignment */
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .latest-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 22%;
+            border-radius: 12px;
+        }
+
+        .latest-news-section ul {
+            padding-left: 20px;
+        }
+
+        .main-article {
+            background-color: white;
+            padding: 20px;
+            width: 40%;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pictorial-news-section {
+            background-color: white;
+            padding: 20px;
+            width: 22%;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pictorial-news-section img {
+            width: 100%;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
